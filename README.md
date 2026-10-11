@@ -51,7 +51,7 @@ Os commits seguem o padrão [Conventional Commits](https://www.conventionalcommi
 ## Etapas de desenvolvimento
 
 - [x] Etapa 1: Configuração do projeto e Git
-- [ ] Etapa 2: Estrutura HTML inicial
+- [x] Etapa 2: Estrutura HTML inicial
 - [ ] Etapa 3: Identidade visual e cabeçalho
 - [ ] Etapa 4: Seção inicial com apresentação e ilustração
 - [ ] Etapa 5: Tecnologias e projetos
