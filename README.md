@@ -19,13 +19,36 @@ dr-code-portfolio/
 ├── index.html
 ├── README.md
 ├── .gitignore
-└── assets/
-    ├── css/
-    │   └── style.css
-    ├── js/
-    │   └── main.js
-    └── images/
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+└── docs/
+    └── referencias/
+        └── mockup-aprovado.png
 ```
+
+## Identidade visual
+
+O layout segue o mockup aprovado em `docs/referencias/mockup-aprovado.png`: fundo escuro, roxo como cor de destaque, bordas discretas e cantos arredondados.
+
+- **Tipografia:** Montserrat (Google Fonts).
+- **Logo:** textual, com `D//R` em roxo e `CODE.` logo abaixo.
+- **Cabeçalho:** fixo no topo, com menu hambúrguer no celular e menu em linha a partir de 960px.
+
+As cores ficam em variáveis CSS no início do `assets/css/style.css`, para facilitar mudanças na paleta:
+
+| Variável              | Cor       | Uso                           |
+| --------------------- | --------- | ----------------------------- |
+| `--cor-fundo`         | `#0A0A1F` | Fundo do site                 |
+| `--cor-superficie`    | `#11102B` | Fundo de painéis e do menu    |
+| `--cor-roxo`          | `#7C3AED` | Botão principal               |
+| `--cor-roxo-vivo`     | `#8B5CF6` | Logo e detalhes de destaque   |
+| `--cor-roxo-claro`    | `#A78BFA` | Links e contorno de foco      |
+| `--cor-texto`         | `#FFFFFF` | Títulos                       |
+| `--cor-texto-suave`   | `#C7C5DB` | Texto corrido                 |
 
 ## Como visualizar
 
@@ -52,7 +75,7 @@ Os commits seguem o padrão [Conventional Commits](https://www.conventionalcommi
 
 - [x] Etapa 1: Configuração do projeto e Git
 - [x] Etapa 2: Estrutura HTML inicial
-- [ ] Etapa 3: Identidade visual e cabeçalho
+- [x] Etapa 3: Identidade visual e cabeçalho
 - [ ] Etapa 4: Seção inicial com apresentação e ilustração
 - [ ] Etapa 5: Tecnologias e projetos
 - [ ] Etapa 6: Sobre mim e contato
