@@ -368,7 +368,7 @@ main {
 /* Celular: uma coluna, com o texto primeiro e o notebook abaixo */
 .inicio {
     display: grid;
-    gap: 3rem;
+    gap: 2rem;
     padding: 2.5rem 0 3.5rem;
     /* Brilho roxo suave atrás do texto */
     background-image: radial-gradient(closest-side at 30% 35%, var(--cor-brilho-suave), transparent);
