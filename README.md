@@ -37,6 +37,7 @@ O layout segue o mockup aprovado em `docs/referencias/mockup-aprovado.png`: fund
 - **Tipografia:** Montserrat (Google Fonts).
 - **Logo:** textual, com `D//R` em roxo e `CODE.` logo abaixo.
 - **Cabeçalho:** fixo no topo, com menu hambúrguer no celular e menu em linha a partir de 960px.
+- **Seção inicial:** apresentação, botões e contatos; ao lado (ou abaixo, no celular), um notebook com código C# feito apenas com HTML e CSS, sem imagens.
 
 As cores ficam em variáveis CSS no início do `assets/css/style.css`, para facilitar mudanças na paleta:
 
@@ -76,7 +77,7 @@ Os commits seguem o padrão [Conventional Commits](https://www.conventionalcommi
 - [x] Etapa 1: Configuração do projeto e Git
 - [x] Etapa 2: Estrutura HTML inicial
 - [x] Etapa 3: Identidade visual e cabeçalho
-- [ ] Etapa 4: Seção inicial com apresentação e ilustração
+- [x] Etapa 4: Seção inicial com apresentação e ilustração
 - [ ] Etapa 5: Tecnologias e projetos
 - [ ] Etapa 6: Sobre mim e contato
 - [ ] Etapa 7: Responsividade e animações
